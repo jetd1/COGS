@@ -4,3 +4,9 @@ dataset
 output
 .ipynb_checkpoints
 _demo.ipynb
+*.o
+*.so
+*.log
+*.ninja
+.ninja_deps
+*.egg

@@ -12,10 +12,9 @@ Abstract: *Novel view synthesis from a sparse set of input images is a challengi
 ## Requirements
 - Please refer to [3DGS](https://github.com/graphdeco-inria/gaussian-splatting/) for requirements of hardware.
 - We have done all the experiments on the Linux platform with NVIDIA 3080 GPUs.
-- Dependencies: see [environment.yml](./environment.yml) for exact library dependencies. You can use the following commands with Miniconda3 to create and activate your Python environment. **NOTICE:** you need to install [xformers](https://github.com/facebookresearch/xformers) and [PyTorch3D](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md), following their guidelines, manually.
-    - conda env create -f environment.yml
+- Dependencies:
+    - conda create -n cogs python=3.11
     - conda activate cogs
-    - python -m ipykernel install --user --name=cogs
     - ./install.sh
 
 ## Getting started
